@@ -1,14 +1,6 @@
-{
-  "type": "list",
-  "headline": "Мій Плейлист",
-  "items": [
-    {
-      "title": "Filmix (веб-версія)",
-      "action": "web:https://filmix.ac/"
-    },
-    {
-      "title": "Lampa (веб-версія)",
-      "action": "web:https://lampa.app/"
-    }
-  ]
+{    
+    "name": "TVMY v-MSX",
+    "version": "2.1.2",
+    "parameter": "content:http://tvru.github.io/msx/menu.json",
+        "welcome": "none"
 }
