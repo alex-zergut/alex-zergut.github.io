@@ -1,0 +1,14 @@
+{
+  "type": "list",
+  "headline": "Мій Плейлист",
+  "items": [
+    {
+      "title": "Filmix",
+      "action": "url:https://filmix.ac/"
+    },
+    {
+      "title": "Lampa",
+      "action": "url:https://lampa.app/"
+    }
+  ]
+}
