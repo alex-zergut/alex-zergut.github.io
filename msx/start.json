@@ -1,5 +1,5 @@
 {    
-    "name": "TVMY v-MSX",
+    "name": "Alex's playlist",
     "version": "2.1.2",
     "parameter": "content:http://alex-zergut.github.io/msx/menu.json",
         "welcome": "none"
