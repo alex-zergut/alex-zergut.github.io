@@ -43,20 +43,6 @@
       "imageFiller": "cover"
    },
    "items": [
-      {
-         "title": "{col:#1ac9b8}LAMPA",
-         "titleFooter": "LAMPA",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}LAMPA{col}{br}{col:yellow}=========={br}{col:msx-white}Додаток для перегляду серіалів через торент.{br}{col:yellow}Для просмотра торрентов нужен TorrServe.",
-               "image": "https://alex-zergut.github.io/msx/img/lampa-pic.gif"
-            }
-         },
-         "image": "https://tvru.github.io/msx/img/lampa-logo.png",
-         "action": "link:http://lampa.mx"
-      },
        {
           "title": "{col:#1ac9b8}FILMIX",
          "titleFooter": "FILMIX",
@@ -70,7 +56,22 @@
          },
          "image": "https://wals09.github.io/msx/logon/filmix.png",
          "action": "link:http://filmix.tv/"
+      },
+      {
+         "title": "{col:#1ac9b8}LAMPA",
+         "titleFooter": "LAMPA",
+         "selection": {
+            "important": true,
+            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "data": {
+               "text": "{col:msx-white}LAMPA{col}{br}{col:yellow}=========={br}{col:msx-white}Додаток для перегляду серіалів через торент.{br}{col:yellow}Для просмотра торрентов нужен TorrServe.",
+               "image": "https://alex-zergut.github.io/msx/img/lampa-pic.gif"
+            }
+         },
+         "image": "https://tvru.github.io/msx/img/lampa-logo.png",
+         "action": "link:http://lampa.mx"
       }
+      
      
    ]
 }
