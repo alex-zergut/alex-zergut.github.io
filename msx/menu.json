@@ -1,14 +1,14 @@
 {
-   "name": "TVRU",
+   "name": "MY LIST",
    "type": "list",
    "extension": "{ico:msx-white:event} {now:date:dd.mm.yyyy}{tb}{ico:msx-white:access-time} {now:time:hh:mm}",
-   "headline": "TVRU",
+   "headline": "ALEX's LIST",
    "version": "2.1.2",
-   "background": "https://tvru.github.io/msx/img/coming-soon.jpg",
-   "logo": "https://tvru.github.io/msx/img/tvmy-logo.png",
+   "background": "https://alex-zergut.github.io/msx/img/coming-soon.jpg",
+   "logo": "https://alex-zergut.github.io/msx/img/tvmy-logo.png",
    "logoSize": "large",
    "preload": "next",
-   "dictionary": "https://tvru.github.io/msx/lang/ru.json",
+   "dictionary": "https://alex-zergut.github.io/msx/lang/ru.json",
    "action": "[settings:validate_links:0|home]",
    "overlay": {
       "items": [
@@ -45,269 +45,32 @@
    "items": [
       {
          "title": "{col:#1ac9b8}LAMPA",
-         "titleFooter": "Фильмы и сериалы",
+         "titleFooter": "LAMPA",
          "selection": {
             "important": true,
             "action": "[update:content:overlay:image|update:content:overlay:text]",
             "data": {
-               "text": "{col:msx-white}LAMPA{col}{br}{col:yellow}=========={br}{col:msx-white}Отличное приложение для просмотра фильмов и сериалов онлайн или через торрент.{br}{col:yellow}Для просмотра торрентов нужен TorrServe.",
-               "image": "https://tvru.github.io/msx/img/lampa-pic.gif"
+               "text": "{col:msx-white}LAMPA{col}{br}{col:yellow}=========={br}{col:msx-white}Додаток для перегляду серіалів через торент.{br}{col:yellow}Для просмотра торрентов нужен TorrServe.",
+               "image": "https://alex-zergut.github.io/msx/img/lampa-pic.gif"
             }
          },
          "image": "https://tvru.github.io/msx/img/lampa-logo.png",
          "action": "link:http://lampa.mx"
       },
-      {
-         "title": "{col:#1ac9b8}DRM-play",
-         "titleFooter": "IPTV player",
+       {
+          "title": "{col:#1ac9b8}FILMIX",
+         "titleFooter": "FILMIX",
          "selection": {
             "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
+            "action": "update:content:underlay:text",
             "data": {
-               "text": "{col:msx-white}DRM-play{col}{br}{col:yellow}=========={br}{col:msx-white}MOD известного плеера Ott-Play с поддержкой плейлистов в формате m3u, m3u8, stalker-portal, медиатеки. НЕ содержит nagware кода, модулей аналитики и других сюрпризов.{br}{col:yellow}Есть тестовый плейлист)) и содержит программу передач с архивом.",
-               "image": "https://tvru.github.io/msx/img/drm-pic.gif"
+               "headline": "Filmix Smart",
+               "text": "Фільми та серіали на Філміксі"
             }
          },
-         "image": "https://tvru.github.io/msx/img/drm-logo.png",
-         "action": "link:http://drm-play.com"
-      },
-      {
-         "title": "{col:#1ac9b8}UN Censored",
-         "titleFooter": "Фильмы и сериалы",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}UN Censored{col}{br}{col:yellow}=========={br}{col:msx-white}MOD Лампы. Приложения для ANDROID TV и GOOGLE TV для просмотра онлайн фильмов и сериалов.{br}{col:yellow}Отсутствует реклама!{br}Работает без расширений, т.е. открыл и смотришь.",
-               "image": "https://tvru.github.io/msx/img/un-censored-pic.gif"
-            }
-         },
-         "image": "https://tvru.github.io/msx/img/un-censored-logo.png",
-         "action": "link:http://bylampa.online/"
-      },
-      {
-         "title": "{col:#1ac9b8}OTT-play FOSS",
-         "titleFooter": "IPTV player",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}OTT-play FOSS{col}{br}{col:yellow}=========={br}{col:msx-white}MOD известного плеера Ott-Play с поддержкой плейлистов в формате m3u, m3u8, stalker-portal, медиатеки.{br}{col:yellow}Не содержит политических лозунгов. Нет плейлистов.",
-               "image": "https://tvru.github.io/msx/img/ottp-foss-pic.gif"
-            }
-         },
-         "image": "https://tvru.github.io/msx/img/ottp-foss-logo.png",
-         "action": "link:http://ottp.eu.org/f/"
-      },
-      {
-         "title": "{col:#1ac9b8}Prisma_TV",
-         "titleFooter": "Фильмы и сериалы",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Prisma_TV{col}{br}{col:yellow}=========={br}{col:msx-white}Отличный аналог Лампы. Приложения для ANDROID TV и GOOGLE TV для просмотра онлайн фильмов и сериалов.{br}{col:yellow}Отсутствует реклама!{br}Работает без расширений, т.е. открыл и смотришь.",
-               "image": "https://tvru.github.io/msx/img/prisma-pic.gif"
-            }
-         },
-         "image": "https://tvru.github.io/msx/img/prisma-logo.png",
-         "action": "link:https://prisma.ws/"
-      },
-      {
-         "title": "{col:#1ac9b8}Lamp!she",
-         "titleFooter": "Фильмы и сериалы",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Lamp!she{col}{br}{col:yellow}=========={br}{col:msx-white}Отличный мод приложения. Приложение разработано для Android и Google TV.{br}{col:yellow}Приложение не предназначено для работы через MediaStation X и может работать некорректно. Для просмотра торрентов нужен TorrServe.",
-               "image": "https://tvru.github.io/msx/img/lampishe-pic.gif"
-            }
-         },
-         "image": "https://tvru.github.io/msx/img/lampishe-logo.png",
-         "action": "link:https://web.lampishe.cc/"
-      },
-      {
-         "title": "{col:#1ac9b8}ICVA",
-         "titleFooter": "IPTV player",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}ICVA{col}{br}{col:yellow}=========={br}{col:msx-white}Отличный IPTV player от разработчиков LAMPA, в котором Вы найдете возможность просмотра своих плейлистов.",
-               "image": "https://tvru.github.io/msx/img/icva-logo.png"
-            }
-         },
-         "image": "https://tvru.github.io/msx/img/icva-logo.png",
-         "action": "link:http://icva.mx/"
-      },
-      {
-         "title": "{col:#1ac9b8}ATODO",
-         "titleFooter": "Фильмы и сериалы",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}ATODO{col}{br}{col:yellow}=========={br}{col:msx-white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов.{br}{col:yellow}Работает без расширений, т.е. открыл и смотришь.",
-               "image": "https://tvru.github.io/msx/img/atodo-pic.gif"
-            }
-         },
-         "image": "https://tvru.github.io/msx/img/atodo-logo.png",
-         "action": "menu:request:interaction:menu@http://atodo.fun/fun.html"
-      },
-      {
-         "title": "{col:#1ac9b8}ATODO web",
-         "titleFooter": "Фильмы и сериалы",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}ATODO{col}{br}{col:yellow}=========={br}{col:msx-white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов.",
-               "image": "https://tvru.github.io/msx/img/atodo-pic.gif"
-            }
-         },
-         "image": "https://tvru.github.io/msx/img/atodo-logo.png",
-         "action": "link:http://msx.atodo.fun/"
-      },
-      {
-         "title": "{col:#1ac9b8}VoKINO",
-         "titleFooter": "Фильмы и сериалы",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}VoKINO{col}{br}{col:yellow}=========={br}{col:msx-white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов.{br}{col:yellow}Работает без расширений, т.е. открыл и смотришь.",
-               "image": "https://tvru.github.io/msx/img/vokino-pic.gif"
-            }
-         },
-         "image": "https://tvru.github.io/msx/img/vokino-logo.png",
-         "action": "link: http://web.vokino.tv/"
-      },
-      {
-         "title": "{col:#1ac9b8}RUTUBE-WEB",
-         "titleFooter": "Видеоролики",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}RUTUBE-WEB{col}{br}{col:yellow}=========={br}{col:msx-white}Аналог YouTUBE только Российский для просмотра видео.",
-               "image": "https://tvru.github.io/msx/img/rutube-pic.gif"
-            }
-         },
-         "image": "https://tvru.github.io/msx/img/rutube-logo.png",
-         "action": "link:https://rutube.ru/tv-release/rutube.server-22.0.0/webos/"
-      },
-      {
-         "title": "{col:#1ac9b8}Akter Black",
-         "titleFooter": "Фильмы и сериалы",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Akter Black{col}{br}{col:yellow}=========={br}{col:msx-white}Мод Lampa для просмотра различного медиаконтента: фильмов, сериалов, аниме, а так же просмотр торрентов.{br}{col:yellow}Работает без расширений, т.е. открыл и смотришь.",
-               "image": "https://tvru.github.io/msx/img/akter-pic.gif"
-            }
-         },
-         "image": "https://tvru.github.io/msx/img/akter-logo.png",
-         "action": "link: http://abvidaa.ru/"
-      },
-      {
-         "title": "{col:#1ac9b8}RUTUBE-WEB",
-         "titleFooter": "Видеоролики",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}RUTUBE-WEB{col}{br}{col:yellow}=========={br}{col:msx-white}Аналог YouTUBE только Российский для просмотра видео",
-               "image": "https://tvru.github.io/msx/img/rutube-pic.gif"
-            }
-         },
-         "image": "https://tvru.github.io/msx/img/rutube-logo.png",
-         "action": "link:https://rutube.ru/tv-release/rutube.server-22.0.0/webos/"
-      },
-      {
-         "title": "{col:#1ac9b8}YouTUBE",
-         "titleFooter": "Видеоролики",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}YouTUBE{col}{br}{col:yellow}=========={br}{col:msx-white}Видеохостинг, предоставляющий пользователям услуги хранения, доставки и показа видео.",
-               "image": "https://tvru.github.io/msx/img/youtube-logo.png"
-            }
-         },
-         "image": "https://tvru.github.io/msx/img/youtube-logo.png",
-         "action": "link:https://www.youtube.com/tv#/"
-      },
-      {
-         "title": "{col:#1ac9b8}Moovies",
-         "titleFooter": "Фильмы и сериалы",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Moovies{col}{br}{col:yellow}=========={br}{col:msx-white}Хороший сервис по просмотру фильмов и сериалов",
-               "image": "https://tvru.github.io/msx/img/moovies-pic.gif"
-            }
-         },
-         "image": "https://tvru.github.io/msx/img/moovies-logo.png",
-         "action": "menu:request:interaction:init@http://moovies.fun/index.html"
-      },
-      {
-         "title": "{col:#1ac9b8}KinoPUB",
-         "titleFooter": "",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}KinoPUB {col}{br}{col:yellow}=========={br}{col:msx-white}Приложение для просмотра различного медиаконтента: фильмов, сериалов, аниме. Нужна регистрация и подписка",
-               "image": "https://tvru.github.io/msx/img/kinipub-pic.gif"
-            }
-         },
-         "image": "https://tvru.github.io/msx/img/kinipub-logo.png",
-         "action": "link:http://kpms.cc/bootstrap.html"
-      },
-      {
-         "title": "{col:#1ac9b8}Смотрим",
-         "titleFooter": "",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Смотрим{col}{br}{col:yellow}=========={br}{col:msx-white}российская государственная мультимедийная онлайн-платформа, разработанная крупнейшим государственным медиахолдингом «ВГТРК».",
-               "image": "https://tvru.github.io/msx/img/smotrim-logo.png"
-            }
-         },
-         "image": "https://tvru.github.io/msx/img/smotrim-logo.png",
-         "action": "link:https://tv.smotrim.ru/"
-      },
-      {
-         "title": "{col:#1ac9b8}Mytuner mobi",
-         "titleFooter": "",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}myTuner{col}{br}{col:yellow}=========={br}{col:msx-white}бесплатные интернет-радио и подкасты",
-               "image": "https://tvru.github.io/msx/img/mytuner-logo.png"
-            }
-         },
-         "image": "https://tvru.github.io/msx/img/mytuner-logo.png",
-         "action": "link:https://devices.mytuner.mobi/"
-      },
-      {
-         "title": "{col:#1ac9b8}Radio player",
-         "titleFooter": "",
-         "selection": {
-            "important": true,
-            "action": "[update:content:overlay:image|update:content:overlay:text]",
-            "data": {
-               "text": "{col:msx-white}Radioplayer{col}{br}{col:yellow}=========={br}{col:msx-white}Радиотехнологическая платформа, принадлежащая британским радиовещательным компаниям и эксплуатируемая по лицензии в некоторых других странах.",
-               "image": "https://tvru.github.io/msx/img/radioplayer-pic.gif"
-            }
-         },
-         "image": "https://tvru.github.io/msx/img/radioplayer-logo.png",
-         "action": "link:https://tv.radioplayer.de/HiSense/"
+         "image": "https://wals09.github.io/msx/logon/filmix.png",
+         "action": "link:http://filmix.tv/"
       }
+     
    ]
 }
