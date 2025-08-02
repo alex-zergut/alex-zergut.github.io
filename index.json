@@ -3,7 +3,11 @@
   "headline": "Мій Плейлист",
   "items": [
     {
-      "title": "Filmix (веб-версія)",
+      "title": "Filmix ac (веб-версія)",
+      "action": "web:https://filmix.ac/"
+    },
+        {
+      "title": "Filmix my (веб-версія)",
       "action": "web:https://filmix.my/"
     },
     {
